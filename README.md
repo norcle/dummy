@@ -3,6 +3,11 @@
 Проект создан для тестирования новых технологий.
 
 ## Falcon server
+
+### Siege
+```bash
+siege  -r 10 -v -c 1000 127.0.0.1:9292/slow
+```
 ### Falcon Serve
 **falcon serve** is not designed for deployment. Do not use it for deployment.
 
